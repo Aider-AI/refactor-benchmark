@@ -1,2 +1,2 @@
 # refactor-benchmark
-Aider's refactoring benchmark exercises based on the django repo
+Aider's refactoring benchmark exercises based on the django repo.
