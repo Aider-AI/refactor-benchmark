@@ -1,0 +1,18 @@
+
+import unittest
+from benchmark.refactor_tools import verify_refactor
+from pathlib import Path
+
+class TheTest(unittest.TestCase):
+    def test_generate_node_schedule(self):
+        fname = Path(__file__).parent / "triton.py"
+        method = "generate_node_schedule"
+        method_children = 467
+
+        class_name = "TritonScheduling"
+        class_children = 4346
+
+        verify_refactor(fname, method, method_children, class_name, class_children)
+
+if __name__ == "__main__":
+    unittest.main()
