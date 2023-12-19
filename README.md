@@ -2,7 +2,7 @@
 
 Aider's
 [refactoring benchmark](https://aider.chat/docs/unified-diffs.html#refactoring-benchmark)
-exercises are based code from the following
+exercises are based on code from the following
 repositories:
 
 - https://github.com/ansible/ansible.git
